@@ -4,7 +4,7 @@ Application for copying Amazon Kinesis data to S3.
 
 ## Usage
 
-1. [Download the app](https://github.com/codeflows/kinesis-to-s3/releases)
+1. [Download the app](https://github.com/chenkirk/kinesis-to-s3/releases)
 2. Configure your application (start with the template `KinesisToS3.SAMPLE.properties`)
 3. Configure AWS access credentials:
     1. Locally, set either
@@ -18,7 +18,7 @@ Application for copying Amazon Kinesis data to S3.
 
 Checkout the source using Git. Initialize the `amazon-kinesis-connectors` submodule using `git submodule update --init --recursive`
 
-The main class is `com.github.codeflows.aws.KinesisToS3`
+The main class is `com.github.chenkirk.aws.KinesisToS3`
 
 ### Building
 

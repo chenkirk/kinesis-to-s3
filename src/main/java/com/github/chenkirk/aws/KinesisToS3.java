@@ -1,4 +1,4 @@
-package com.github.codeflows.aws;
+package com.github.chenkirk.aws;
 
 import com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
 import com.amazonaws.services.kinesis.connectors.KinesisConnectorConfiguration;

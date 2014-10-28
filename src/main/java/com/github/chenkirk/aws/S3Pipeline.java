@@ -1,4 +1,4 @@
-package com.github.codeflows.aws;
+package com.github.chenkirk.aws;
 
 import com.amazonaws.services.kinesis.connectors.KinesisConnectorConfiguration;
 import com.amazonaws.services.kinesis.connectors.impl.AllPassFilter;
@@ -8,7 +8,7 @@ import com.amazonaws.services.kinesis.connectors.interfaces.IEmitter;
 import com.amazonaws.services.kinesis.connectors.interfaces.IFilter;
 import com.amazonaws.services.kinesis.connectors.interfaces.IKinesisConnectorPipeline;
 import com.amazonaws.services.kinesis.connectors.interfaces.ITransformer;
-import com.amazonaws.services.kinesis.connectors.s3.S3Emitter;
+import com.github.chenkirk.aws.S3Emitter;
 import com.amazonaws.services.kinesis.model.Record;
 
 import java.io.IOException;
